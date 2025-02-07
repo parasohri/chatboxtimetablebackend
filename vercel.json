@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",  // Matches all incoming requests
-      "dest": "/"  // Routes all requests to your index.js file
+      "dest": "/app.js"  // Routes all requests to your index.js file
     }
   ]
 }
