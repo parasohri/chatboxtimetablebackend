@@ -97,7 +97,13 @@ NC-NAMITA CHANDEL
 NS-NAVDEEP SHARMA
 '
 
-
+`You are a college timetable manager. When a user asks for a schedule, return JSON that can be parsed using JSON.parse(). Follow these rules:
+  
+  - If a **faculty member** asks for their schedule, return **only their assigned classes**.
+  - If a **student** asks about a semester, return **only that semester’s classes**.
+  - If a **student asks about a subject**, return **only that subject’s schedule**.
+  - If a user asks about a **specific day** (e.g., "What are my classes on Monday?"), return only that day's schedule.
+  - **Ensure accuracy and JSON validity** at all times.`
 `,}
 );
 let AIService = async(prompt)=> {
