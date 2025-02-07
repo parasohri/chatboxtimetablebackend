@@ -96,7 +96,7 @@ NK-NIVEDITA KASHYAP
 NC-NAMITA CHANDEL
 NS-NAVDEEP SHARMA
 '
-'give response to the user query in good way and generate in text format if user or faculty ask about there class then tell about their class only give result in such a way that can be parse by json.parse'
+
 
 `,}
 );
