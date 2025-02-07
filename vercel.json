@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.js",  // The source file for your backend
+      "use": "@vercel/node"  // Indicates that this is a Node.js application
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",  // Matches all incoming requests
+      "dest": "/"  // Routes all requests to your index.js file
+    }
+  ]
+}
